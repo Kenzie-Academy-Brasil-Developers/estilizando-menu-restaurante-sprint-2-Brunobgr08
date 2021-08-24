@@ -21,7 +21,7 @@ nav {font-family: sans-serif; font-size: 10px;}
 
 #menu {columns: 420px 2; column-gap: 60px;}
 section {
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
     padding: 10px;}
 
 /* Show each of the section headings of the menu (e.g. "Starters") in uppercase. */
@@ -40,14 +40,14 @@ dt {
 /* Make a comma appear after the name of each menu item (before the description) */
 
 dt::after {
-    content: ", "; 
+    content: ", ";
 }
 
 dd {display: inline; margin: 0;}
 dd::after {
-    content: " "; 
-    display: block; 
-    clear: both; 
+    content: " ";
+    display: block;
+    clear: both;
     margin-bottom: 15px;}
 
 .price {float: right; padding: 0 0 35px 20px;}
