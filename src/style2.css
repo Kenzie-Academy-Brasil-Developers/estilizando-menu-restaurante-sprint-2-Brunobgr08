@@ -28,13 +28,15 @@ section {
 h2 {
     margin-top: 0;
     text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    padding-bottom: 20px;
 }
 
 /* Make the name of each menu item appear in bold in a 16px size. */
 dt {
     display: inline;
-    font-size: 16px;
-    font-weight: bold;
+    font-weight: 600;
 }
 
 /* Make a comma appear after the name of each menu item (before the description) */
@@ -55,6 +57,7 @@ dd::after {
 /* Right-align the text of the address/footer */
 address{
     text-align: right;
+    font-style: italic;
 }
 
 /* draw a 2px thick black border around the starters and desserts sections of the menu */
